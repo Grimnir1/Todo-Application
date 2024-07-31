@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    background-color: rgb(66, 67, 72);
+    /* background-color: orange; */
+    padding: 20px;
+}
+.ben{
+    width: 25%;
+}
+input{
+    border: none;
+}
+input:focus{
+    border: none;
+}
+#show{
+    width: 25%;
+}
+.tabili {
+    /* height: 35vh; */
+    width: 25%;
+    overflow-y: auto;
+}   
+#showList{
+    display: block;
+    color: white;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    border: 1px solid #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    /* width: 500px; */
+    gap: 30px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+
+}
+@media screen and (max-width: 800px){
+    .ben{
+        width: 90%;
+    }
+}
